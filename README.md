@@ -1,2 +1,2 @@
-# CGFInalProject
-Metroid Prime CG Recreation
+# HogueCG
+Final Project 

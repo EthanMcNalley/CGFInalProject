@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Plasmat
+  m_Name: BulletMat
   m_Shader: {fileID: -6465566751694194690, guid: 446d13b7cdb8fde46b277704ba153cf4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -27,7 +27,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: ee965e33f7faa41fface0e9c42a5d570, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -45,8 +45,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _Brightness: 0.1
-    - _FresAmount: 7.79
-    - _FresIntensity: 104.41
+    - _FresAmount: 1.42
+    - _FresIntensity: 111.58
     - _LINENOISE: 1
     - _LineAmount: 8.31
     - _LineNoiseAngle: 1
@@ -56,7 +56,7 @@ Material:
     - _RIMNOISE: 1
     m_Colors:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 1, g: 0, b: 0.115291595, a: 1}
+    - _RimColor: {r: 0.6901961, g: 0.49466535, b: 0.22352941, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &9126237306674775355

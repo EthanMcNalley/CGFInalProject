@@ -7,29 +7,27 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaveBulletMat
-  m_Shader: {fileID: -6465566751694194690, guid: 446d13b7cdb8fde46b277704ba153cf4, type: 3}
+  m_Name: HologramUnder 1
+  m_Shader: {fileID: -6465566751694194690, guid: edb1feb46ee1adb468fb28a2c6b3f43d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _LINENOISE
-  - _RIMNOISE
+  - _ALPHATEST_ON
+  - _SURFACE_TYPE_TRANSPARENT
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
   - MOTIONVECTORS
+  - DepthOnly
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Texture:
-        m_Texture: {fileID: 2800000, guid: ee965e33f7faa41fface0e9c42a5d570, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -44,22 +42,28 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 70.28
-    - _FresAmount: -0.04
-    - _FresIntensity: 85.39
-    - _LINENOISE: 1
-    - _LineAmount: 109.2
-    - _LineNoiseAngle: 1
-    - _NoiseAmount: 13.13
+    - _AlphaClip: 1
+    - _AlphaToMask: 0
+    - _Blend: 2
+    - _CastShadows: 1
+    - _Cull: 2
+    - _DstBlend: 1
+    - _DstBlendAlpha: 1
+    - _FresPower: 2
+    - _GlowIntensity: 16.2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RIMNOISE: 1
+    - _SrcBlend: 5
+    - _SrcBlendAlpha: 1
+    - _Surface: 1
+    - _ZTest: 2
+    - _ZWrite: 0
+    - _ZWriteControl: 0
     m_Colors:
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _RimColor: {r: 0.44469848, g: 0.22352941, b: 0.6901961, a: 1}
+    - _BaseColor: {r: 1, g: 0.6525152, b: 0.10377347, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &9126237306674775355
+--- !u!114 &5414262520557915376
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
